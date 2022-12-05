@@ -1,0 +1,50 @@
+
+
+
+.main_container{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.main_container_row{
+    display: flex; 
+
+    justify-content: center;
+    flex-direction: row;
+
+    width:500px;    
+}
+
+
+
+#appendTrainObject {
+    padding:  20px;
+}
+
+
+#models {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.AppendClass{
+    margin: 20px;
+    border-top: 2px solid ;
+    border-bottom: 2px solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    padding: 10px;
+
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noi file</title>
+    <link rel="stylesheet" href="css/main_style.css">
+</head>
+<body>
+
+    <div class="main_container">
+
+        
+        <div id="p5_place"></div>
+        
+        
+        
+        <div id="saveBox">
+            <button onclick="appendToClassifier()" id="appendTrainObject" >Append train object</button>
+        </div>
+
+        
+    </div>
+    
+    <div id="models"></div>
+
+    <div class="main_container">
+        <button id="TrainButton" onclick="TrainButton()" >Train</button>
+    </div>
+    
+    
+    
+
+    <script src="libs/p5.min.js"></script>
+    <script src="libs/ml5.min.js"></script>
+
+    <script src="js/modelTrainer.js"></script>
+    <script src="js/clickEvents.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+</body>
+</html>
